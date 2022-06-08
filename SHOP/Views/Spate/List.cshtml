@@ -1,0 +1,11 @@
+﻿@model SpateListViewModel
+    <h1>@Model.currCategory</h1>
+    <div class="row mt-5 mb-2">
+        @{
+            foreach (Spate spate in Model.allSpates)
+            {
+                @Html.Partial("AllSpate",spate)
+
+            }
+        }
+    </div>

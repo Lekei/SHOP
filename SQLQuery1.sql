@@ -1,0 +1,1 @@
+﻿backup database [Shop] to disk = 'Z:\Проекты\SHOP\BackShop'
